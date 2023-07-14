@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(Rectangle.png);   position:absolute;
+    width:100%;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+footer{
+    text-align: center;
+}
+.article1 {
+    text-align: left;
+    margin: 10px;
+}
+.article2 {
+    text-align: center;
+    margin: 10px;
+}
+
+main article figure img {
+    width: 200px;
+}
+
+
+main article form label{
+    display: block;
+    margin: 10px;
+}
+
+#checkbox {
+    border: none;
+    text-align: left;
+}
+#ctext {
+    color: tomato;
+}
+article table tbody tr td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+article table {
+    border-collapse: collapse;
+}
+
+.for {
+    justify-content: center;
+    box-sizing: border-box;
+    
+    
+}
